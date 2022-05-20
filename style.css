@@ -208,14 +208,14 @@ body {
 }
 
 /* productList */
+
 .productList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 620px;
+  margin-left: 20px;
 }
 .productList li {
-  /* background: #999; */
   width: 300px;
   height: 436px;
   margin-bottom: 20px;
@@ -288,6 +288,7 @@ body {
   color: var(--sub-color);
 }
 
+/* pagination */
 .pagination {
   display: flex;
   justify-content: end;
